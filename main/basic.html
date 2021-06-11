@@ -10,11 +10,9 @@
             var containerDiv = document.getElementById("vizContainer"),
                 url = "https://public.tableau.com/views/test_16234254980890/Sheet2",
                 options = {
-                    //hideTabs: true,
+                    hideTabs: true,
                     hideToolbar: true,
-                    onFirstInteractive: function () {
-                        console.log("Run this code when the viz has finished loading.");
-                    }
+                    
                 };
             
             // Create a viz object and embed it in the container div.
