@@ -8,22 +8,6 @@
   <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
   ...
   <!-- Empty div where the viz will be placed -->
-  <div id="tableauViz">
-
-  function initializeViz() {
-    // JS object that points at empty div in the html
-    var placeholderDiv = document.getElementById("tableauViz");
-    // URL of the viz to be embedded
-    var url = "https://public.tableau.com/views/test_16234254980890/Sheet2";
-    // An object that contains options specifying how to embed the viz
-    var options = {
-      width: '600px',
-      height: '600px',
-      hideTabs: true,
-      hideToolbar: true,
-    };
-    viz = new tableau.Viz(placeholderDiv, url, options);
-  }
-</div>
+  <div id="tableauViz"></div>
 </head>
 
